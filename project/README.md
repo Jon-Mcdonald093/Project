@@ -12,8 +12,10 @@ This is a movie information resource that uses terminal interface to ask for a m
 
 **Global Variables**
 ---------------
-- **cpi_library**
 
+- **cpi_library** Allows the CPI library to be intialized only when required for use as it would generate considerable lag that I couldn't find a way to avoid. 
+- **API KEY** The api key is provided to the function by way of .env file, an example is included, .env.example use this to make your own key.
+  
 ---
 
 <a href="../../project/final.py#L15"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
